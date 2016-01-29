@@ -6,6 +6,7 @@ var App = React.createClass({
     return(
       <div>
         <NavigationContainer/>
+        <SideBar/>
         <RouteHandler/>
       </div>
     )
