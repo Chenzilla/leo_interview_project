@@ -91,4 +91,3 @@ Middleman is a static site generator built in Ruby. This makes it a great fit
 for projects that may end up as a Ruby on Rails app. Its minimalistic structure
 makes it very easy to work with, and includes support for deploying to Github
 Pages.
-# leo_interview_project

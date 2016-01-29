@@ -1,0 +1,24 @@
+{
+  "name": "strivelabs_prototype_template",
+  "version": "1.0.0",
+  "description": "A rapid prototyping tool for the strive labs team.",
+  "main": "source/views/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strive-Labs/strive-labs-prototype-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Strive-Labs/strive-labs-prototype-template/issues"
+  },
+  "homepage": "https://github.com/Strive-Labs/strive-labs-prototype-template#readme",
+  "devDependencies": {
+    "faker": "^3.0.1",
+    "json-server": "^0.7.25",
+    "moment": "^2.10.6"
+  }
+}

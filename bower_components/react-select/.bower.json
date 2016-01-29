@@ -1,0 +1,51 @@
+{
+  "name": "react-select",
+  "main": [
+    "dist/react-select.min.js",
+    "dist/default.css"
+  ],
+  "version": "0.6.7",
+  "homepage": "https://github.com/JedWatson/react-select",
+  "authors": [
+    "Jed Watson"
+  ],
+  "description": "A Select control built with and for ReactJS",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "dependencies": {
+    "classnames": "^1.2.2",
+    "react-input-autosize": "^0.4.3"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "select",
+    "multiselect",
+    "combobox",
+    "input",
+    "form",
+    "ui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ],
+  "_release": "0.6.7",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.7",
+    "commit": "2d139995455f6d8c6a092f5bf70de30ff621da0a"
+  },
+  "_source": "git://github.com/JedWatson/react-select.git",
+  "_target": "~0.6.0",
+  "_originalSource": "react-select"
+}

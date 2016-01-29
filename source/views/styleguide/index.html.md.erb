@@ -1,0 +1,110 @@
+---
+title: Styleguide
+---
+## 1. Overview
+
+<section>
+# Technologies Used
+
+*****
+
+All styles are written using Sass.  Base styles and normalization are defined by the excellent [bitters](http://bitters.bourbon.io/).Styles are documented using [KSS](http://warpspire.com/kss/).
+</section>
+
+<section>
+# Coding Style:
+
+*****
+
+* Put each rule on its own line.
+* Avoid nesting > 3 levels deep.
+* Put only a single property on each line.
+* Put a space before { in the rule declarations.
+* Put a space after : in property declarations.
+* Use hex colors or variables for all colors.
+* Use // for comment blocks (instead of /* */).
+* Naming declorations are determined using the BEM methodology.
+* Document styles with KSS.
+
+*****
+
+Here is a good example:
+
+```scss
+.styleguide-format,
+.styleguide-format {
+    border: 1px solid $containerBorder;
+    font: {
+        size: 16px;
+        family: $serifFontFamily;
+    }
+    color: #000;
+}
+```
+</section>
+
+
+<section>
+# BEM Syntax
+
+*****
+
+Follow the BEM Syntax for naming your classes as outlined in CSSWizardry's article [MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/).
+
+The basic pattern is as follows:
+
+```css
+.block{}
+.block__element{}
+.block--modifier{}
+```
+
+For example, consider the following non-BEM code:
+
+```html
+<form class="site-search full">
+    <input type="text" class="field">
+    <input type="Submit" value ="Search" class="button">
+</form>
+```
+
+Looking at this code, it's hard to tell how exactly the full, field, and button classes are related to the site-search class. Using BEM, the relationship between the classes becomes much clearer.
+
+```html
+<form class="site-search site-search--full">
+    <input type="text" class="site-search__field">
+    <input type="Submit" value ="Search" class="site-search__button">
+</form>
+```
+</section>
+
+<section>
+# Other Naming Convetions
+
+*****
+
+* Class names should be - delimited.
+* Variable, mixin, and function names should be camelCased.
+* Class names should be semantic and not convey presentational information.
+* Use %placeholders names for common styles that are to be extended, shared, and built-off of.
+
+```scss
+.badClassName {
+    color: $bad-variable-name;
+}
+
+.good-class-name {
+    color: $goodVariableName;
+}
+
+%commonStylesToBeExtended {
+    font: {
+        family: $serifFontFamily;
+        size: 16px;
+    }
+    color: #fff;
+    background-color: #000;
+}
+```
+</section>
+</section>

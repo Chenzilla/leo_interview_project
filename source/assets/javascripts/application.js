@@ -1,0 +1,15 @@
+//= require react-with-addons
+//= require reflux/dist/reflux.js
+//= require react-router/build/umd/ReactRouter.js
+//= require jquery/dist/jquery.min.js
+//= require highcharts-release/highcharts.js
+//= require sticky-kit/jquery.sticky-kit.js
+//= require underscore/underscore.js
+//= require moment/moment.js
+//= require classnames/index.js
+//= require react-input-autosize/dist/react-input-autosize.js
+//= require react-select/dist/react-select.js
+//= require humanize-plus/public/src/humanize.js
+//= require_tree ./components
+//= require_tree ./layouts
+//= require_tree ./config
