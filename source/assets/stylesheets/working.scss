@@ -123,7 +123,6 @@
   padding-left: 20px;
   padding-bottom: 10px;
   border-bottom: 1px $dark-gray solid;
-
   &__container {
     display: inline-block;
     color: $panel-gray;
@@ -146,5 +145,54 @@
         text-align: center;
       }
     }
+  }
+}
+
+.appointment-details {
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+
+  &__picture {
+    display: inline-block;
+
+    img {
+      border-radius: 50%;
+      height: 150px;
+    }
+  }
+
+  &__text {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: 190%;
+  }
+
+  &__date {
+    font-size: 20px;
+    color: $dark-gray;
+  }
+
+  &__physician,
+  &__time {
+    color: $panel-gray;
+  }
+}
+
+// GREETING
+.overview {
+  &__greeting {
+    margin-top: 20%;
+    font-weight: 100;
+    font-size: 60px;
+    color: $panel-gray;
+    text-align: center;
+  }
+
+  &__question {
+    font-weight: 100;
+    font-size: 30px;
+    color: $panel-gray;
+    text-align: center;
   }
 }

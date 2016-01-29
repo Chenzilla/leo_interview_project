@@ -22,7 +22,7 @@ var MedicalInformation = React.createClass({
         <div className="medical-information__label">
           Conditions
         </div>
-        { this._getConditions() }
+        {this._getConditions()}
       </div>
     )
   }
