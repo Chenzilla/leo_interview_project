@@ -1,3 +1,4 @@
+// NAVBAR
 .navigation {
   display: block;
   height: 100px;
@@ -107,4 +108,11 @@
   &__label {
     margin-top: 30px;
   }
+}
+
+// PAGE-CONTAINER
+.overview-container {
+  display: block;
+  margin-left: 400px;
+  height: calc(100% - 100px);
 }

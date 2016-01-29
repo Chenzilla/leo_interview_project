@@ -5,7 +5,7 @@ var MedicalInformation = React.createClass({
 
     for(var i = 0; i < data.length; i++){
       conditionName = data[i];
-      conditions.push(<div className="medical-information__conditions">{conditionName}</div>);
+      conditions.push(<div className="medical-information__conditions" key={i}>{conditionName}</div>);
     }
     return conditions;
   },

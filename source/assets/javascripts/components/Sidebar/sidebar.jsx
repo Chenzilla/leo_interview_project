@@ -2,15 +2,15 @@
 
 var PROFILEDATA =
           {id: 535,
-          first_name:"Catherine",
-          last_name: "Morgan",
+          first_name:"Fred",
+          last_name: "Flintstone",
           role: "Patient",
           physician: "Dr. Lorem",
-          age: 58,
-          bmi: 23,
-          refills: 2,
+          age: 24,
+          bmi: 19,
+          refills: 3,
           imageURL: "https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg",
-          conditions: ["Crohn's Disease", "Rheumatoid Arthritis"]}
+          conditions: ["Scurvy", "Rheumatoid Arthritis"]}
 
 var SideBar = React.createClass({
   getInitialState: function(){
