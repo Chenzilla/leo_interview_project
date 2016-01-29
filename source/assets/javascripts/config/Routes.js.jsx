@@ -7,7 +7,10 @@ var routes = (
   <Route path="/" handler={App}>
     <DefaultRoute name="home" handler={Overview}/>
     <Route path="overview" name="overview" handler={Overview}/>
-    <Route path="appointments" name="appointments" handler={Appointments}/>
+    <Route path="appointments" handler={Appointments}>
+      <DefaultRoute name="appointment-notif" handler={AppointmentNotif}/>
+      <Route name="appointment-dates" handler={AppointmentDates}/>
+    </Route>
     <Route path="rx" name="rx" handler={RX}/>
     <Route path="education" name="education" handler={Education}/>
   </Route>

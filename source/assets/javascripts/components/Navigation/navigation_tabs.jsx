@@ -9,7 +9,7 @@ var NavigationTabs = React.createClass({
         <div className="navigation-tabs__tab__underline"></div>
       </li>
       </Link>
-      <Link to="appointments">
+      <Link to="appointment-notif">
         <li className="navigation-tabs__tab">
           Appointments
           <i className="fa fa-calendar"></i>

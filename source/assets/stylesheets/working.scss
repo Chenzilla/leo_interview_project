@@ -116,3 +116,35 @@
   margin-left: 400px;
   height: calc(100% - 100px);
 }
+
+// APPOINTMENTS
+.appointment-navbar {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px $dark-gray solid;
+
+  &__container {
+    display: inline-block;
+    color: $panel-gray;
+    margin-right: 30px;
+
+    &__icon {
+      height: $icon-height;
+      width: $icon-height;
+      text-align: center;
+      line-height: $icon-height;
+      font-size: 25px;
+      color: $panel-gray;
+      border: solid $panel-gray 2px;
+      border-radius: 50%;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: -20px;
+      span {
+        text-align: center;
+      }
+    }
+  }
+}
