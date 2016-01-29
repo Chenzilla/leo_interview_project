@@ -70,11 +70,41 @@
   }
 
   &__name {
+    color: $panel-text;
     margin-top: 30px;
     font-size: 20px;
   }
 
   &__role {
     font-size: 16px;
+  }
+
+  &__attributes {
+    color: $panel-text;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  &__age,
+  &__bmi,
+  &__refills {
+    margin-left: 18%;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+.medical-information {
+  margin-top: 30px;
+  margin-left: 18%;
+  font-weight: 700;
+  &__physician,
+  &__conditions {
+    color: $panel-text;
+    margin-top: 10px;
+  }
+
+  &__label {
+    margin-top: 30px;
   }
 }
